@@ -8,9 +8,30 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #dbac74;
+  background-color: #dfb06dfa;
 }
 
 .navigation {
-  height: 12vh;
+  height: 10vh;
+}
+
+.navigation .flex ul li a,
+.navigation .flex p {
+  color: #dbac74;
+}
+
+.main {
+  padding-top: 10vh;
+  height: 100vh;
+  background-image: url(img/Background\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: #5e659d;
+}
+
+.btn:hover {
+  background-color: #333b78;
 }
