@@ -8,7 +8,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #dfb06dfa;
+  background-color: #deaf69;
 }
 
 .navigation {
@@ -18,6 +18,10 @@ body {
 .navigation .flex ul li a,
 .navigation .flex p {
   color: #dbac74;
+}
+
+.navigation .flex ul li a:hover {
+  color: #83581cfa;
 }
 
 .main {
@@ -34,4 +38,9 @@ body {
 
 .btn:hover {
   background-color: #333b78;
+}
+
+.discover img {
+  height: 200px;
+  width: 200px;
 }
