@@ -44,3 +44,19 @@ body {
   height: 200px;
   width: 200px;
 }
+
+.discover,
+.join {
+  padding-top: 9rem;
+}
+
+.join {
+  background-image: url(img/Background\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  background-color: #5e659d;
+  height: 70%;
+}
